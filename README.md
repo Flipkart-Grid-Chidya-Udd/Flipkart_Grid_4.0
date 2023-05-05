@@ -40,7 +40,7 @@ Place the packages to be delivered within the view of the Intel Realsense camera
 Launch the fast planning with dynamic octomapping algorithm by running the following command:
 
 Copy code
-roslaunch dynamic_fast_planner dynamic_fast_planner.launch
+''' roslaunch dynamic_fast_planner dynamic_fast_planner.launch '''
 The drone will begin to plan a path to pick up the package using the shortest path possible.
 
 Once the package has been picked up, the drone will plan a path to the desired delivery location and drop the package using the electromagnet.
