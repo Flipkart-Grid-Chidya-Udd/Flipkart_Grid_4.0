@@ -41,7 +41,9 @@ Launch the fast planning with dynamic octomapping algorithm by running the follo
 
 Copy code
 
-'''roslaunch dynamic_fast_planner dynamic_fast_planner.launch'''
+'''
+roslaunch dynamic_fast_planner dynamic_fast_planner.launch
+'''
 
 The drone will begin to plan a path to pick up the package using the shortest path possible.
 
