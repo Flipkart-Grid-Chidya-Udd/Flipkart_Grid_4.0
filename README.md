@@ -6,16 +6,16 @@ This project is a submission for the Flipkart Grid 4.0 competition, which involv
 # Hardware and Software Requirements
 The following hardware and software are required to run this project:
 
-Pixhawk F450 drone with PX4 firmware
-Jetson Nano
-Intel Realsense D435i camera
-Electromagnet
-ROS Melodic
-Mavros
-AprilTag ROS package
-Intel Realsense ROS package
+ 1. Pixhawk F450 drone with PX4 firmware
+ 2. Jetson Nano
+ 3. Intel Realsense D435i camera
+ 4. Electromagnet
+ 5. ROS Noetic
+ 6. Mavros
+ 7. AprilTag ROS package
+ 8. Intel Realsense ROS package
 # Installation and Setup
-Install ROS Melodic and Mavros on your computer.
+Install ROS Noetic and Mavros on your computer.
 
 Install the Intel Realsense ROS package by following the instructions here.
 
