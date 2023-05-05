@@ -16,7 +16,7 @@ The following hardware and software are required to run this project:
  8. Intel Realsense ROS package
 
 # Installation and Setup
-```Install ROS Noetic and Mavros on your computer.```
+Install ROS Noetic and Mavros on your computer.
 Install the Intel Realsense ROS package by following the instructions here.
 Clone this repository to your computer.
 
@@ -34,12 +34,20 @@ Power on the drone and wait for it to initialize.
 
 Launch the rs_camera.launch, px4.launch, and continues_detection.launch files.
 
+Terminal 2:-
+```linux
+cd fastplanner_ws/
+source devel/setup.bash
+rosrun FastPlannerOctomap Planner
+```
+
 Place the packages to be delivered within the view of the Intel Realsense camera. Make sure the packages are either marked with an Aruco code or have a distinct color on top.
 
 Launch the fast planning with dynamic octomapping algorithm by running the following command:
 
-Copy code
-```roslaunch dynamic_fast_planner dynamic_fast_planner.launch```
+```linux
+roslaunch dynamic_fast_planner dynamic_fast_planner.launch
+```
 The drone will begin to plan a path to pick up the package using the shortest path possible.
 
 Once the package has been picked up, the drone will plan a path to the desired delivery location and drop the package using the electromagnet.
