@@ -14,11 +14,10 @@ The following hardware and software are required to run this project:
  6. Mavros
  7. AprilTag ROS package
  8. Intel Realsense ROS package
+
 # Installation and Setup
-'''Install ROS Noetic and Mavros on your computer.'''
-
+```Install ROS Noetic and Mavros on your computer.```
 Install the Intel Realsense ROS package by following the instructions here.
-
 Clone this repository to your computer.
 
 Connect the Intel Realsense camera to the Jetson Nano and the Jetson Nano to the Pixhawk F450 drone.
@@ -40,11 +39,7 @@ Place the packages to be delivered within the view of the Intel Realsense camera
 Launch the fast planning with dynamic octomapping algorithm by running the following command:
 
 Copy code
-
-'''ruby
-roslaunch dynamic_fast_planner dynamic_fast_planner.launch
-'''
-
+```roslaunch dynamic_fast_planner dynamic_fast_planner.launch```
 The drone will begin to plan a path to pick up the package using the shortest path possible.
 
 Once the package has been picked up, the drone will plan a path to the desired delivery location and drop the package using the electromagnet.
