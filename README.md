@@ -15,7 +15,7 @@ The following hardware and software are required to run this project:
  7. AprilTag ROS package
  8. Intel Realsense ROS package
 # Installation and Setup
-Install ROS Noetic and Mavros on your computer.
+'''Install ROS Noetic and Mavros on your computer.'''
 
 Install the Intel Realsense ROS package by following the instructions here.
 
