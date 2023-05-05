@@ -41,7 +41,7 @@ Launch the fast planning with dynamic octomapping algorithm by running the follo
 
 Copy code
 
-'''
+'''ruby
 roslaunch dynamic_fast_planner dynamic_fast_planner.launch
 '''
 
