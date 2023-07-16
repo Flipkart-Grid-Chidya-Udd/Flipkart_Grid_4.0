@@ -1,0 +1,2 @@
+apriltag_ros/apriltag_ros:image_common/camera_calibration_parsers:image_common/camera_info_manager:image_common/image_common:image_common/image_transport:image_common/polled_camera:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/hemanth/image_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hemanth/image_ws/install -G Unix Makefiles
