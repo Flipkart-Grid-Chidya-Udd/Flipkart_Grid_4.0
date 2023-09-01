@@ -45,7 +45,8 @@ Place the packages to be delivered within the view of the Intel Realsense camera
 
 After initializing the octomap planner, it maps the world or arena and updates it as the drone moves. After some instant, the simulation map might look like this:
 
-![mapping](https://github.com/Flipkart-Grid-Chidya-Udd/Flipkart_Grid_4.0/assets/97309123/7bd21aab-504a-4adc-9a03-3000d2dfe6f0)
+![mapping](https://github.com/Flipkart-Grid-Chidya-Udd/Flipkart_Grid_4.0/assets/97309123/17e999a7-9ee2-48f5-a170-ddd92d19d14f)
+
 
 Launch the fast planning with dynamic octomapping algorithm by running the following command:
 
