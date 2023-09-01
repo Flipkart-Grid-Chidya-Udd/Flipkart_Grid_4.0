@@ -42,8 +42,10 @@ rosrun FastPlannerOctomap Planner
 ```
 
 Place the packages to be delivered within the view of the Intel Realsense camera. Make sure the packages are either marked with an Aruco code or have a distinct color on top.
+
 After initializing the octomap planner, it maps the world or arena and updates it as the drone moves. After some instant, the simulation map might look like this:
-![mapping](https://drive.google.com/file/d/1_8zCU0z9IMnXSRZCPZbIK8TlVkvbCXtK/view?usp=drive_link)
+
+![mapping](https://github.com/Flipkart-Grid-Chidya-Udd/Flipkart_Grid_4.0/assets/97309123/7bd21aab-504a-4adc-9a03-3000d2dfe6f0)
 
 Launch the fast planning with dynamic octomapping algorithm by running the following command:
 
@@ -51,10 +53,11 @@ Launch the fast planning with dynamic octomapping algorithm by running the follo
 roslaunch dynamic_fast_planner dynamic_fast_planner.launch
 ```
 The drone will begin to plan a path to pick up the package using the shortest path possible.
-On running the simulation on gazebo, it should look similar to this at some instant:
-![gazebo](https://drive.google.com/file/d/1fZ5CKMP5j6q5p7AAH_T-khnNgpmZktsd/view?usp=drive_link)
-
 Once the package has been picked up, the drone will plan a path to the desired delivery location and drop the package using the electromagnet.
+
+On running the simulation on gazebo, it should look similar to this at some instant:
+![gazebo](https://github.com/Flipkart-Grid-Chidya-Udd/Flipkart_Grid_4.0/assets/97309123/273f2bd7-894a-497f-9673-b3a3161cf96d)
+
 
 # Conclusion
 This project demonstrates the use of ROS and Intel Realsense for building an autonomous drone for indoor delivery. The project includes obstacle avoidance and motion planning using dynamic octomapping, localization using AprilTags and the Intel Realsense camera, and package recognition using Aruco codes or color detection. We hope that this README provides a useful guide for others who are interested in building similar projects.
