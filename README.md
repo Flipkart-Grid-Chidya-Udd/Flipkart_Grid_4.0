@@ -42,7 +42,7 @@ rosrun FastPlannerOctomap Planner
 ```
 
 Place the packages to be delivered within the view of the Intel Realsense camera. Make sure the packages are either marked with an Aruco code or have a distinct color on top.
-After initialising octomap planner, it starts mapping the world or arena and keeps updating it as the drone moves. After some instant, the simulation map might look like this:
+After initializing the octomap planner, it maps the world or arena and updates it as the drone moves. After some instant, the simulation map might look like this:
 ![mapping](https://drive.google.com/file/d/1_8zCU0z9IMnXSRZCPZbIK8TlVkvbCXtK/view?usp=drive_link)
 
 Launch the fast planning with dynamic octomapping algorithm by running the following command:
@@ -51,6 +51,8 @@ Launch the fast planning with dynamic octomapping algorithm by running the follo
 roslaunch dynamic_fast_planner dynamic_fast_planner.launch
 ```
 The drone will begin to plan a path to pick up the package using the shortest path possible.
+On running the simulation on gazebo, it should look similar to this at some instant:
+![gazebo](https://drive.google.com/file/d/1fZ5CKMP5j6q5p7AAH_T-khnNgpmZktsd/view?usp=drive_link)
 
 Once the package has been picked up, the drone will plan a path to the desired delivery location and drop the package using the electromagnet.
 
