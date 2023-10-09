@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/garvit/Flipkart_Grid_4.0/devel/lib/python2.7/dist-packages",
+        "/home/garvit/catkin_ww/devel/lib/python3/dist-packages",
+        "/home/garvit/catkin_ws_1/devel/lib/python3/dist-packages",
+        "/home/garvit/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/garvit/Flipkart_Grid_4.0/devel/lib/python2.7/dist-packages",
+        "/home/garvit/catkin_ww/devel/lib/python3/dist-packages",
+        "/home/garvit/catkin_ws_1/devel/lib/python3/dist-packages",
+        "/home/garvit/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
